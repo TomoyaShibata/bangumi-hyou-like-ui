@@ -1,13 +1,26 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
-    "outDir": "dist/"
+    "isolatedModules": false,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "ES5"
   },
-  "exclude": [
-    "node_modules"
+  "include": [
+    "src/**/*.ts"
   ]
 }
