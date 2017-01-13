@@ -38,3 +38,8 @@ jspm_packages
 
 # VSCode
 .vscode/
+
+dist/
+src/**/*.js
+src/**/*.js.map
+
