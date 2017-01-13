@@ -8,5 +8,5 @@ import Component from 'vue-class-component'
     </header>
   `
 })
-export default class Header extends Vue {
+export default class HeaderComponent extends Vue {
 }
