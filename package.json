@@ -1,0 +1,26 @@
+{
+  "name": "bangumi-hyou-like-ui",
+  "version": "0.0.1",
+  "description": "It is a demo of a UI like a program guide that synchronizes while the scroll position is shifted.",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.1.8",
+    "stylus": "^0.54.5",
+    "vue-class-component": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomoyaShibata/bangumi-hyou-like-ui.git"
+  },
+  "keywords": [],
+  "author": "TomoyaShibata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomoyaShibata/bangumi-hyou-like-ui/issues"
+  },
+  "homepage": "https://twitter.com/tomoya_shibata"
+}
